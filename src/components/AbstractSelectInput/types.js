@@ -4,8 +4,8 @@ import { Text } from 'react-native'
 export default {
   enabled: PropTypes.bool,
   labelStyle: PropTypes.oneOfType([
-    Text.propTypes.style,
-    PropTypes.arrayOf(Text.propTypes.style)
+    Text.style,
+    PropTypes.arrayOf(Text.style)
   ]),
   onEndEditing: PropTypes.func,
   onSubmitEditing: PropTypes.func,
